@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="nn0/FuFQh]R$8_2t:s[;" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="f@o{5g4pXFHgKeQIqwf$"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="A1sk!6ymjh-6GVX:EiW}"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_clear_display" id="O3nKNK4[~6D_$b7e;=yr"><next><block type="device_print_message" id="_W!M37XSt[wXvl_]qq`C"><value name="text"><shadow type="text" id="[e5XAKyvX(Ewq9eIj=-K"><field name="TEXT">T=</field></shadow></value><next><block type="device_show_number" id="Ruzq,8%iihB=Vo2|@vVa"><value name="number"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_temperature" id="T/FsnHUwbG;PJ-Rh)*Rn"/></value><next><block type="device_print_message" id="7TMHjZPoCFtEPjkrltt2"><value name="text"><shadow type="text" id="C=7CX$c%fZ=zDJPN2)ML"><field name="TEXT">DEGRES</field></shadow></value></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="YL7u|SJ:+Qh~T=,Fiy;I"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="n}2s1;;=M!ne;,JmONSX"><value name="pause"><shadow type="timePicker" id="WIx|X|{92Rg]*$d4]$O0"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id=")HAAFzu0U?r0X);7,@FE"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="e1?T)UvWW0:rxRfvW!wE"><value name="pause"><shadow type="timePicker" id="htK{|;U]2DC)W6d^plBg"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="ijS+Dg0%CBNH=Z1I*ga)"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
